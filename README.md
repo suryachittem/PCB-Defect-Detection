@@ -115,35 +115,28 @@ PCB_DATASET/
 │── test_images/ (ignored)
 │── venv/ (ignored)
 
-✅ Installation & Setup
-1️⃣ Clone Repository
+## ✅ Installation & Setup
+
+### 1️⃣ Clone Repository
+```bash
 git clone https://github.com/suryachittem/PCB-Defect-Detection.git
 cd PCB_DATASET
 
-2️⃣ Create Virtual Environment
 python -m venv venv
 venv\Scripts\activate
 
-3️⃣ Install Requirements
 pip install -r requirements.txt
 
-▶️ Run the Application
 python app.py
-
-
-Open in browser:
 
 http://127.0.0.1:5000/
 
 🧪 Model Training (EfficientNet)
 
-To train EfficientNet on DeepPCB ROI dataset:
-
 python Efficient/model_training.py
 
 📊 Evaluation
-
-System evaluation metrics:
+✅ System Evaluation Metrics
 
 Defect mask accuracy
 
