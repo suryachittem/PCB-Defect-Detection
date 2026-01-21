@@ -1,0 +1,35 @@
+# ===== DATASET / LARGE FOLDERS =====
+defect_rois/
+Annotations/
+defect_visuals/
+images/
+test_images/
+test_outputs/
+testing/
+train_images/
+val_images/
+output_diff/
+PCB_USED/
+outputs/
+venv/
+
+# ===== LARGE FILE TYPES =====
+*.zip
+*.jpg
+*.jpeg
+*.png
+*.pth
+*.pt
+
+# ===== ANNOTATION FILE TYPES =====
+*.csv
+*.json
+*.xml
+*.txt
+*.yaml
+*.yml
+
+# ===== OPTIONAL =====
+.DS_Store
+Thumbs.db
+.vscode/
