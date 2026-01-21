@@ -93,7 +93,7 @@ CircuitGuard uses a 2-stage pipeline:
 ## 📂 Project Structure
 > (May vary based on your folder arrangement)
 
-```bash
+---bash
 PCB_DATASET/
 │── app.py
 │── roi.py
@@ -115,10 +115,12 @@ PCB_DATASET/
 │── test_images/ (ignored)
 │── venv/ (ignored)
 
+---bash
+
 ## ✅ Installation & Setup
 
 ### 1️⃣ Clone Repository
-```bash
+
 git clone https://github.com/suryachittem/PCB-Defect-Detection.git
 cd PCB_DATASET
 
