@@ -122,6 +122,7 @@ PCB_DATASET/
 ### 1️⃣ Clone Repository
 
 git clone https://github.com/suryachittem/PCB-Defect-Detection.git
+
 cd PCB_DATASET
 
 python -m venv venv
@@ -138,6 +139,7 @@ http://127.0.0.1:5000/
 python Efficient/model_training.py
 
 📊 Evaluation
+
 ✅ System Evaluation Metrics
 
 Defect mask accuracy
